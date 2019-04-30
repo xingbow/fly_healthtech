@@ -1,9 +1,9 @@
 
 
-class TextProcessor(object):
+class dataProcessor(object):
     def __init__(self):
         # parameters
-        self.name = 'textProcessor'
+        self.name = 'dataProcessor'
 
         return
 
@@ -18,6 +18,5 @@ class TextProcessor(object):
 
 if __name__ == '__main__':
     # an example
-    textProcessor = TextProcessor()
-    textProcessor.test()
-
+    dataProcessor = dataProcessor()
+    dataProcessor.test()

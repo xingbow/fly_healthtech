@@ -5,10 +5,7 @@ import os
 import sys
 
 
-from .FaceProcessor import FaceProcessor
-from .AudioProcessor import AudioProcessor
-from .TextProcessor import TextProcessor
-from .BodyProcessor import BodyProcessor
+from .dataProcessor import dataProcessor
 
 
 class DataService(object):
@@ -46,14 +43,7 @@ if __name__ == '__main__':
     result = dataService.initialization(videoId)
     print('result: ', result)
 
-    faceProcessor = FaceProcessor()
-    audioProcessor = AudioProcessor()
-    textProcessor = TextProcessor()
-    bodyProcessor = BodyProcessor()
-
-    faceProcessor.test()
-    audioProcessor.test()
-    textProcessor.test()
-    bodyProcessor.test()
+    dataProcessor = dataProcessor()
+    dataProcessor.test()
 
 
