@@ -1,22 +1,17 @@
-# Delphi-project
-This is the code for the delphi project.
+# FLY-healthtech project
+This is the code for the FLY-healthtech project.
 
 ---
 
-### run back end (server)
+### run server
 
 ```
-python run-data-backend.py
+python backend.py
 ```
 
-Environment:
-- python 35
 ---
-### run front end (client)
+### run client
 ```
-cd client && npm run serve
+cd client && npm install && npm run serve
 ```
-Environment:
-- Vue 3.6.3
-- d3v5
 
